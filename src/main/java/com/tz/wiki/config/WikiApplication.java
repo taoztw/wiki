@@ -1,4 +1,4 @@
-package com.tz.wiki;
+package com.tz.wiki.config;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -6,9 +6,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.core.env.Environment;
-import org.springframework.scheduling.annotation.EnableAsync;
-import org.springframework.scheduling.annotation.EnableScheduling;
 
+//@ComponentScan({"com.tz","com.test"})
+@ComponentScan("com.tz")
 @SpringBootApplication
 public class WikiApplication {
 
